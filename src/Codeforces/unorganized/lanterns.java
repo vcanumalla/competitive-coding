@@ -1,4 +1,4 @@
-package Codeforces;
+package Codeforces.unorganized;
 
 import java.io.BufferedReader;
 import java.util.Arrays;

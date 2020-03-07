@@ -1,4 +1,4 @@
-package bronze.feb20;//package bronze.feb20;
+//package bronze.feb20;
 
 import java.io.*;
 import java.util.Arrays;
@@ -29,7 +29,7 @@ public class triangles {
                     int y1 = pairs[i][1];
                     int y2 = pairs[j][1];
                     int y3 = pairs[k][1];
-                    double area = .5 * ((x1 * (y2 - y1)) + (x2 * (y3 - y1)) + (x3 * (y1 - y2)));
+                    double area = .5 * ((x1 * (y2 - y3)) + (x2 * (y3 - y1)) + (x3 * (y1 - y2)));
                     double absArea = 2 * Math.abs(area);
                     boolean axisPX = false;
                     boolean axisPY = false;

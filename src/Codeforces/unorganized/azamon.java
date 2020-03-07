@@ -1,4 +1,4 @@
-package Codeforces;
+package Codeforces.unorganized;
 
 import java.util.Scanner;
 
