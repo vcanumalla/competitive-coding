@@ -5,22 +5,25 @@ import java.util.Scanner;
 public class B463 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int cost = 0;
-        int n  = Integer.parseInt(sc.next());
-        int p = 0;
+        int jumps = sc.nextInt();
         int energy = 0;
-        for (int i = 0; i < n; i++) {
-            int next = Integer.parseInt(sc.next());
+        int cost = 0;
+        int p = 0;
+        for (int i = 0; i < jumps; i++) {
+
+            int next = sc.nextInt();
             int change = next - p;
-            if (p < next) {
+            if (change > energy) {
                 cost += change - energy;
+                energy = 0;
             }
             else {
-                energy += change;
+                energy -= change;
             }
-            p = next;
+
+             p = next;
+
         }
         System.out.println(cost);
-
     }
 }
