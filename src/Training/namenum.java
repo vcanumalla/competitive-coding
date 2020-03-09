@@ -1,9 +1,10 @@
-package Training;
+
 /*
 ID: vishalc2
 LANG: JAVA
 TASK: namenum
 */
+//package Training;
 import java.io.*;
 import java.util.*;
 

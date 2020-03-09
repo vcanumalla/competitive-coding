@@ -4,24 +4,21 @@ import java.util.*;
 
 import java.util.*;
 //Incomplete
+import java.util.*;
+
 public class B {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int k = sc.nextInt();
-        HashSet<String> cardSet = new HashSet<>();
-        double possible = 0;
-        String[] arr = new String[1500];
-        for (int i = 0; i < n -1; i++) {
-            if (arr[i] == null) {
-                arr[i] = sc.next();
-                cardSet.add(arr[i]);
-            }
-            for (int j = i+1 ; j < n; j++) {
-                if (arr[j] == null) {
-                    arr[j] = sc.next();
-                    cardSet.add(arr[j]);
-                }
+        HashSet<String> cardSet= new HashSet<>();
+        while (sc.hasNext()) {
+            cardSet.add(sc.next());
+        }
+        int possible = 0;
+        String[] arr = cardSet.toArray(new String[cardSet.size()]);
+        for (int i = 0; i < arr.length - 1; i++) {
+            for (int j = i+1 ; j < arr.length; j++) {
                 String s = "";
                 for (int q = 0; q  < k; q++) {
                     if (arr[i].charAt(q) == arr[j].charAt(q)) {
@@ -29,25 +26,23 @@ public class B {
                     }
 
                     else {
-                        TreeSet<Character> pos = new TreeSet<>();
-                        pos.add('S');
-                        pos.add('E');
-                        pos.add('T');
-                        pos.remove(arr[i].charAt(q));
-                        pos.remove(arr[j].charAt(q));
-                        for (Character item: pos) {
-                            s+= item;
+                        char a = arr[i].charAt(q);
+                        char b = arr[j].charAt(q);
+                        if ((a == 'S' && b == 'E') || (a == 'E' && b == 'S')) {
+                            s += 'T';
+                        } else if ((a == 'S' && b == 'T') || (a == 'T' && b == 'S')) {
+                            s += 'E';
+                        } else {
+                            s += 'S';
                         }
                     }
                 }
-                System.out.println(s);
-                cardSet.add(sc.next());
                 if (cardSet.contains(s)) {
                     possible++;
                 }
             }
         }
-        System.out.println(possible/3);
+        System.out.println(possible /3);
 //        for (int i = 0; i < n; i++) System.out.println(Arrays.toString(sets[i]));
     }
 }
