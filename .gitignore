@@ -1,4 +1,11 @@
 # Project exclude paths
-/out/
-*.out
+.vscode/
+build/
+*.exe
+*.o
 *.in
+*.out
+*.txt
+.DS_Store
+cf/workspace
+*.log
