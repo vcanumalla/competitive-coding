@@ -1,2 +1,12 @@
 # Default ignored files
 /workspace.xml
+.vscode/
+build/
+*.exe
+*.o
+*.in
+*.out
+*.txt
+.DS_Store
+cf/workspace
+*.log
