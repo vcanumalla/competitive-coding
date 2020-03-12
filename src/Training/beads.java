@@ -1,4 +1,4 @@
-
+package Training;
 /*
 ID: vishalc2
 LANG: JAVA
