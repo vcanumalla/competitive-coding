@@ -3,7 +3,6 @@ package Codeforces.r612;
 import java.util.*;
 
 import java.util.*;
-//Incomplete
 import java.util.*;
 
 public class B {
