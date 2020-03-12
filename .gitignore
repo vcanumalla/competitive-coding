@@ -9,4 +9,4 @@ build/
 .DS_Store
 cf/workspace
 *.log
-/out/production/usacoStuff
+/out/**
