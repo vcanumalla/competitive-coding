@@ -13,7 +13,7 @@ int main() {
         }
         sort(nums.begin(), nums.end());
         if (n %2 == 1) {
-            for (int j = 0; j < n; j++) {
+            for (int j = 0; j < 2 *n ; j+=2) {
                 int a, b; 
                 a = nums[j];
                 b = nums[j+1];
@@ -23,32 +23,22 @@ int main() {
             }
             sort(first.begin(), first.end());
             sort(second.begin(), second.end());
-            for (int k = 0; k < n; k++) {
-                cout << first[k] << " ";
-            }
-            cout << "\n";
-            for (int k = 0; k < n; k++) {
-                cout << second[k] << " ";
-            }
-            cout << "\n";
             int med1 = first[n/2];
             int med2 = second[n/2];
-            cout << "MED: " << med1 << " " << med2 << "\n";
             cout << abs(med2 - med1) << "\n";
         }
         else {
-            for (int j = 0; j < n -1; j++) {
-                int a, b; cin >> a >> b;
-
-                first.push_back(a);
-                second.push_back(b);
+            for (int j = 0; j < nums.size(); j+=2) {
+                first.push_back(nums[j]);
             }
-            int a,b; cin >> a >> b;
-            first.push_back(a);
-            first.push_back(b);
-            int med1 = first[n/2];
-            int med2 = second[n/2];
-            cout << abs(med2 - med1);
+            first.push_back(nums[nums.size() - 1]);
+            for (int j = 1; j < nums.size() - 1; j+=2) {
+                second.push_back(nums[j]);
+            }
+            int med1 = first[first.size()/2];
+            int med2 = second[second.size()/2];
+            cout << abs(med2 - med1) << "\n";
+            
         }
     }
 }
