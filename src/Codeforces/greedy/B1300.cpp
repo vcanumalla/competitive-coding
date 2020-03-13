@@ -4,8 +4,8 @@ int main() {
     int t; cin >> t;
     for (int i = 0; i < t; i++) {
         int n; cin>> n;
-        set<int> first;
-        set<int> second;
+        vector<int> first;
+        vector<int> second;
         vector<int> nums;
         for (int k = 0; k < 2 *n; k++) {
             int a; cin >>a;
@@ -13,12 +13,12 @@ int main() {
         }
         sort(nums.begin(), nums.end());
         if (n %2 == 1) {
-            sort(nums.begin(), nums.end());    
             for (int j = 0; j < n; j++) {
                 int a, b; 
-
-                first.insert(a);
-                second.insert(b);
+                a = nums[j];
+                b = nums[j+1];
+                first.push_back(a);
+                second.push_back(b);
 
             }
             sort(first.begin(), first.end());
