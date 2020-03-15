@@ -13,8 +13,8 @@ int main() {
     ios::sync_with_stdio(0); cin.tie(0);
     int n, m; cin >> n >> m;
 
-    vector<set<char> > spotted;
-    vector<set<char> > plain;
+    vector<set<char> > spotted(m);
+    vector<set<char> > plain(m);
     for (int i = 0; i <n; i++) {
         string s; cin >> s;
         for (int j = 0; j < m; j++) {
@@ -29,17 +29,28 @@ int main() {
     }
     int count = 0;
     for (int j = 0; j < m; j++) {
+        bool bah = true;
         set<char> letters = {'A', 'C', 'G', 'T'};
         for (char c: letters) {
-            if (spotted[j].count(c) && !plain[j].count(c)) {
-                count++;
-                break;
+            if (spotted[j].count(c)) {
+                if (plain[j].count(c) ==1) {
+                    bah = false;
+                    break;
+                }
+
+                
             }
+
+        }
+        if (bah)  {
+            count++;
         }
     }
     cout << count << endl;
     return 0;
 }
+
+
 
 
 
