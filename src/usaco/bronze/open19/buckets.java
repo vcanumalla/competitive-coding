@@ -1,5 +1,4 @@
-package bronze.open19;
-import java.util.*;
+package usaco.bronze.open19;
 import java.io.*;
 import java.lang.*;
 public class buckets {

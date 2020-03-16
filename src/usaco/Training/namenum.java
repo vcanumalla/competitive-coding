@@ -1,10 +1,10 @@
-package Training;
+package usaco.Training;
 /*
 ID: vishalc2
 LANG: JAVA
 TASK: namenum
 */
-//package Training;
+//package usaco.Training;
 import java.io.*;
 import java.util.*;
 

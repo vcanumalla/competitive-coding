@@ -1,7 +1,6 @@
-package bronze.feb20;
+package usaco.bronze.feb20;
 
 import java.io.*;
-import java.util.Arrays;
 import java.util.StringTokenizer;
 
 public class triangles {

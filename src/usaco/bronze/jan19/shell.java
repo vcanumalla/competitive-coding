@@ -1,4 +1,4 @@
-package bronze.jan19;
+package usaco.bronze.jan19;
 
 import java.io.*;
 import java.util.*;

@@ -1,4 +1,4 @@
-package Training;
+package usaco.Training;
 /*
 ID: vishalc2
 LANG: JAVA
@@ -6,7 +6,6 @@ TASK: beads
 */
 import java.io.*;
 import java.util.Arrays;
-import java.util.Scanner;
 
 public class beads {
     public static void main(String[] args) throws IOException {

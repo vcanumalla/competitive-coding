@@ -1,4 +1,4 @@
-package Training;
+package usaco.Training;
 /*
 ID: vishalc2
 LANG: JAVA
