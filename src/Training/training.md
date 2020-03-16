@@ -7,3 +7,4 @@
 |1.3        | milk2         | Solved          | Timeline
 |           | transform     | Missing         | Comparing 2D Arrays
 |           | namenum       | Solved          | Complete Search
+|           | palsquare     | Solved          | Brute Force

@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="752a2984-a43f-4748-845f-61427bbd571b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Codeforces/datastructures/A1200.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Codeforces/r598/A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Codeforces/r612/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Codeforces/r612/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Training/dualpal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Training/palsquare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/usacoStuff/Codeforces/greedy/A1265.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/usacoStuff/Codeforces/greedy/A1265.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/usacoStuff/Codeforces/r612/B.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/usacoStuff/Codeforces/r612/B.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/usacoStuff/beads.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/usacoStuff/blist.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/usacoStuff/bronze/bronze.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/usacoStuff/bronze/bronze.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/usacoStuff/buckets.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/usacoStuff/mixmilk.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/usacoStuff/triangles.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/usacoStuff/whereami.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Training/training.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Training/training.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +68,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.B">
+  <component name="RunManager" selected="Application.dualpal">
     <configuration name="A1225" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Codeforces.math.A1225" />
       <module name="usacoStuff" />
@@ -98,8 +108,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="beads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Training.beads" />
+    <configuration name="dualpal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Training.dualpal" />
       <module name="usacoStuff" />
       <extension name="coverage">
         <pattern>
@@ -111,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="triangles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bronze.feb20.triangles" />
+    <configuration name="palsquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Training.palsquare" />
       <module name="usacoStuff" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bronze.feb20.*" />
+          <option name="PATTERN" value="Training.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,19 +135,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.beads" />
-      <item itemvalue="Application.triangles" />
       <item itemvalue="Application.A148" />
       <item itemvalue="Application.A1225" />
       <item itemvalue="Application.B" />
+      <item itemvalue="Application.palsquare" />
+      <item itemvalue="Application.dualpal" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.dualpal" />
+        <item itemvalue="Application.palsquare" />
         <item itemvalue="Application.B" />
         <item itemvalue="Application.A1225" />
         <item itemvalue="Application.A148" />
-        <item itemvalue="Application.triangles" />
-        <item itemvalue="Application.beads" />
       </list>
     </recent_temporary>
   </component>
