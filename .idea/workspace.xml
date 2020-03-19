@@ -1,34 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="752a2984-a43f-4748-845f-61427bbd571b" name="Default Changelist" comment="dualpal, atcoder abc158 A-B">
-      <change afterPath="$PROJECT_DIR$/src/atcoder/abc158/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/atcoder/abc158/B.java" afterDir="false" />
+    <list default="true" id="752a2984-a43f-4748-845f-61427bbd571b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Codeforces/dp/A580.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/atcoder/abc152/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/atcoder/abc152/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/atcoder/abc152/C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/usaco/bronze/jan20/photo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/usacoStuff/Training/gift1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/usacoStuff/Training/milk2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/usacoStuff/Training/ride.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/usacoStuff/Training/training.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/usacoStuff/bronze/bronze.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/usacoStuff/bronze/dec19/gymnastics.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Training/beads.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/usaco/Training/beads.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Training/dualpal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/usaco/Training/dualpal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Training/gift1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/usaco/Training/gift1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Training/milk2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/usaco/Training/milk2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Training/namenum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/usaco/Training/namenum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Training/palsquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/usaco/Training/palsquare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Training/ride.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/usaco/Training/ride.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Training/training.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/usaco/Training/training.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bronze/bronze.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/usaco/bronze/bronze.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bronze/dec18/blist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/usaco/bronze/dec18/blist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bronze/dec18/mixmilk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/usaco/bronze/dec18/mixmilk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bronze/dec19/gymnastics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/usaco/bronze/dec19/gymnastics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bronze/dec19/whereami.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/usaco/bronze/dec19/whereami.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bronze/feb20/triangles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/usaco/bronze/feb20/triangles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bronze/jan19/shell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/usaco/bronze/jan19/shell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bronze/open17/cownomics.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/usaco/bronze/open17/cownomics.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bronze/open17/lostcow.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/usaco/bronze/open17/lostcow.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bronze/open19/buckets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/usaco/bronze/open19/buckets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Codeforces/B313.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Codeforces/round mocks/r411/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Codeforces/r411/A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Codeforces/round mocks/r598/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Codeforces/r598/A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Codeforces/round mocks/r612/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Codeforces/r612/A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Codeforces/round mocks/r612/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Codeforces/r612/B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Codeforces/round mocks/r628/A.cpp" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,13 +68,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.dualpal">
-    <configuration name="A1225" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Codeforces.math.A1225" />
+  <component name="RunManager" selected="Application.A580">
+    <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Codeforces.r604.A" />
       <module name="usacoStuff" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Codeforces.math.*" />
+          <option name="PATTERN" value="Codeforces.r604.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="A148" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Codeforces.math.A148" />
+    <configuration name="A580" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Codeforces.dp.A580" />
       <module name="usacoStuff" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Codeforces.math.*" />
+          <option name="PATTERN" value="Codeforces.dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Codeforces.r612.B" />
+    <configuration name="C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="atcoder.abc152.C" />
       <module name="usacoStuff" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Codeforces.r612.*" />
+          <option name="PATTERN" value="atcoder.abc152.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dualpal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="usaco.Training.dualpal" />
+    <configuration name="D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="atcoder.abc152.D" />
       <module name="usacoStuff" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="usaco.Training.*" />
+          <option name="PATTERN" value="atcoder.abc152.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="palsquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Training.palsquare" />
+    <configuration name="photo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="usaco.bronze.jan20.photo" />
       <module name="usacoStuff" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="usaco.Training.*" />
+          <option name="PATTERN" value="usaco.bronze.jan20.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,19 +135,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.A148" />
-      <item itemvalue="Application.A1225" />
-      <item itemvalue="Application.B" />
-      <item itemvalue="Application.palsquare" />
-      <item itemvalue="Application.dualpal" />
+      <item itemvalue="Application.C" />
+      <item itemvalue="Application.D" />
+      <item itemvalue="Application.photo" />
+      <item itemvalue="Application.A" />
+      <item itemvalue="Application.A580" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.dualpal" />
-        <item itemvalue="Application.palsquare" />
-        <item itemvalue="Application.B" />
-        <item itemvalue="Application.A1225" />
-        <item itemvalue="Application.A148" />
+        <item itemvalue="Application.A580" />
+        <item itemvalue="Application.A" />
+        <item itemvalue="Application.photo" />
+        <item itemvalue="Application.D" />
+        <item itemvalue="Application.C" />
       </list>
     </recent_temporary>
   </component>
@@ -289,7 +274,21 @@
       <option name="project" value="LOCAL" />
       <updated>1584333874028</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="dualpal, atcoder abc158 A-B">
+      <created>1584390383289</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1584390383289</updated>
+    </task>
+    <task id="LOCAL-00018" summary="1165">
+      <created>1584390538836</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1584390538836</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -318,6 +317,7 @@
     <MESSAGE value="r612B, shell" />
     <MESSAGE value="palsquare, dualpal incomplete" />
     <MESSAGE value="dualpal, atcoder abc158 A-B" />
-    <option name="LAST_COMMIT_MESSAGE" value="dualpal, atcoder abc158 A-B" />
+    <MESSAGE value="1165" />
+    <option name="LAST_COMMIT_MESSAGE" value="1165" />
   </component>
 </project>
