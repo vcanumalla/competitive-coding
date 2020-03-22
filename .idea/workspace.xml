@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="752a2984-a43f-4748-845f-61427bbd571b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Codeforces/dp/A580.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/atcoder/abc152/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/atcoder/abc152/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/atcoder/abc152/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/usaco/bronze/jan20/photo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Codeforces/B313.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Codeforces/round mocks/r411/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Codeforces/r411/A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Codeforces/round mocks/r598/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Codeforces/r598/A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Codeforces/round mocks/r612/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Codeforces/r612/A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Codeforces/round mocks/r612/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Codeforces/r612/B.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Codeforces/round mocks/r628/A.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/usaco/bronze/open17/lostcow.cpp" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -288,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584390538836</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="580A">
+      <created>1584652742588</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1584652742589</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -318,6 +315,7 @@
     <MESSAGE value="palsquare, dualpal incomplete" />
     <MESSAGE value="dualpal, atcoder abc158 A-B" />
     <MESSAGE value="1165" />
-    <option name="LAST_COMMIT_MESSAGE" value="1165" />
+    <MESSAGE value="580A" />
+    <option name="LAST_COMMIT_MESSAGE" value="580A" />
   </component>
 </project>
