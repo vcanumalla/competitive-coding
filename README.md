@@ -1,2 +1,2 @@
 # competitive-coding
-My terrible and inefficient solutions to  competition problems.
+Old repo. No longer updated
